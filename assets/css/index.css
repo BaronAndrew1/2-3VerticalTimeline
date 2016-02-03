@@ -1,1 +1,74 @@
+/*Model and form datetime section*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
+.datetime {
+  display: inline-block;
+  text-align:right;
+  margin-left: 10%;
+  vertical-align: top;
+  margin-right: 70px;
+}
+.date {
+  font-size: 1em;
+  color: rgb(200,200,200)
+}
+.time {
+  font-size: 3em;
+  color: #5DBBEA;
+}
+/*Model and form Icon*/
+.icon {
+  position: absolute;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #5DBBEA;
+  padding: 9px;
+  margin-right: -39px;
+  margin-left: -65px;
+  border-radius: 100%;
+  z-index: 1;
+}
+.fa {
+  display: inline-block;
+  color: #5DBBEA;
+  background-color: blue;
+  border-radius: 100%;
+  padding: 5px 15px 5px 15px;
+}
+
+/*Text bubble form and alignment*/
+article {
+  display: inline-block;
+  border-left-style: solid;
+  border-left-color: #5DBBEA;
+  border-left-width: 10px;
+  width: 65%;
+  padding-left: 3%;
+  z-index: 0;
+  margin-left: -39px;
+
+}
+.text-bubble {
+  background-color: #5DBBEA;
+  border-radius: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+section {
+  display: inline-block;
+}
+.header {
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 15px;
+  font-size: 2em;
+  font-weight: 600;
+}
+.main-text {
+  padding-top: 15px;
+  line-height: 1.2em;
+  color: white;
+  padding-bottom: 3em;
+}
