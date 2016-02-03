@@ -37,6 +37,13 @@ body {
   border-radius: 100%;
   padding: 5px 15px 5px 15px;
 }
+.fa-laptop {
+  display: inline-block;
+  color: #5DBBEA;
+  background-color: blue;
+  border-radius: 100%;
+  padding: 5px;
+}
 
 /*Text bubble form and alignment*/
 article {
@@ -45,19 +52,20 @@ article {
   border-left-color: #5DBBEA;
   border-left-width: 10px;
   width: 65%;
-  padding-left: 3%;
+  padding-left: 6%;
   z-index: 0;
   margin-left: -39px;
+  padding-bottom: 20px;
+  margin-top: 11px;
+  margin-bottom: -20px;
 
 }
 .text-bubble {
+  padding-top: 40px;
   background-color: #5DBBEA;
   border-radius: 5px;
   padding-left: 2%;
   padding-right: 2%;
-}
-section {
-  display: inline-block;
 }
 .header {
   color: white;
@@ -71,4 +79,17 @@ section {
   line-height: 1.2em;
   color: white;
   padding-bottom: 3em;
+}
+/*Arrow*/
+.arrow-left {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #5DBBEA;
+  margin-top: 9px;
+}
+.arrow-container {
+  margin-left: -12px;
 }
